@@ -32,12 +32,12 @@ deleteItem() {
         e.preventDefault();
     }
     render() {
-        return(
+        return( 
             <div>
                 <form on onSubmit={this.onFormSubmit}>
             <div className="container">
                 <input type="text"
-            placeholder="What to you wont to buy today?"
+            placeholder="What do you wont to buy today?"
             onChange={(e) =>{this.onChangeEvent(e.target.value)}}
                 value={this.state.userInput}/>
             </div>
