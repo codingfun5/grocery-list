@@ -16,7 +16,7 @@ export class GroceryList extends Component{
         let listArray = this.state.groceryList;
         listArray.push(input);
         this.setState({groceryList: listArray, userInput: ''})
-        console.log(listArray)
+        
     }
 }
 deleteItem() {
