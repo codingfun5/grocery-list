@@ -33,7 +33,7 @@ deleteItem() {
     }
     render() {
         return( 
-            <div>
+           
                 <form on onSubmit={this.onFormSubmit}>
             <div className="container">
                 <input type="text"
@@ -57,7 +57,7 @@ deleteItem() {
             <button onClick={() => this.deleteItem()} className="btn-delete">Delete</button>
             </div>
             </form>
-            </div>
+           
         )
     }
 }
